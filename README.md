@@ -28,9 +28,9 @@ Our robot managed to get the maximum grade, and it was able to complete the trac
 
 ### Implementation details
 The algorithm used for line following is the one using a PID controller. The PID controller was implemented in order to reduce the oscillations of the robot, and to make it follow the line more precisely. The optimal values for the PID controller (on our chassis) were:
-- K~p~ = 30
-- K~i~ = 0.08
-- K~d~ = 150
+- K<sub>p</sub> = 30
+- K<sub>i</sub> = 0.08
+- K<sub>d</sub> = 150
 
 ### Setup
 <details>
